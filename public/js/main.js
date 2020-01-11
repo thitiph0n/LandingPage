@@ -34,9 +34,11 @@ function setBg() {
   if (hour < 12) {
     document.body.style.backgroundImage = "url('../src/morning.jpg')";
     greeting.textContent = "Good Morning";
+    document.body.style.color = "white";
   } else if (hour < 18) {
     document.body.style.backgroundImage = "url('../src/afternoon.jpg')";
     greeting.textContent = "Good Afternoon";
+    document.body.style.color = "white";
   } else {
     document.body.style.backgroundImage = "url('../src/night.jpg')";
     greeting.textContent = "Good Evening";
